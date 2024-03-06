@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+.pai {
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.circulo1 {
+    background-color: #ff00f2;
+}
+
+.circulo2 {
+    background-color: #5500ff;
+}
+
+.circulo3 {
+    background-color: #ff0044;
+}
