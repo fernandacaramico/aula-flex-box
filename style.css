@@ -13,7 +13,7 @@ h1 {
 
 .pai {
     width: 80%;
-    height: 250px;
+    height: 400px;
     margin: auto;
     background-color: antiquewhite;
     border: solid 2px black;
@@ -27,7 +27,7 @@ h1 {
 .filho {
     width: 80px;
     height: 80px;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
 .circulo1 {
