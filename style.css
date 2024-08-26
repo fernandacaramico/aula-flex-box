@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-color: #f8f8f8;
+    color: #212427
 }
 
 h1 {
@@ -13,31 +15,50 @@ h1 {
 
 .pai {
     width: 80%;
-    height: 400px;
+    height: 350px;
     margin: auto;
     background-color: antiquewhite;
-    border: solid 2px black;
+    border: solid 2px #212427;
 
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: row;
 }
 
 .filho {
     width: 80px;
     height: 80px;
-    border-radius: 40px;
+    border-radius: 50px;
+    text-align: center;
 }
 
-.circulo1 {
-    background-color: #ff00f2;
+.cor1 {
+    background-color: #ED145B;
 }
 
-.circulo2 {
-    background-color: #5500ff;
+.cor2 {
+    background-color: #63B1BC;
 }
 
-.circulo3 {
-    background-color: #ff0044;
+.cor3 {
+    background-color: #EFB661;
+}
+
+.instrucoes {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: antiquewhite;
+    height: 130px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
 }
